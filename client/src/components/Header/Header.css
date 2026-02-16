@@ -3,7 +3,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 16px 24px;
-  border-bottom: 1px solid #ddd;
 }
 
 .header__nav {
@@ -11,7 +10,11 @@
   gap: 16px;
 }
 
-.button {
+.header__logo {
+  font-size: 3.5rem;
+}
+
+.header__btn {
   border: none;
   background: none;
 }

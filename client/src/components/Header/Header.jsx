@@ -2,11 +2,11 @@ import "./Header.css";
 function Header() {
   return (
     <header className="header">
-      <div>Reps</div>
+      <div className="header__logo">Reps</div>
 
       <nav className="header__nav">
-        <button>Home</button>
-        <button>Sign In</button>
+        <button className="header__btn">Home</button>
+        <button className="header__btn">Sign In</button>
       </nav>
     </header>
   );
