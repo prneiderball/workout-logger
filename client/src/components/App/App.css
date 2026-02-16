@@ -9,8 +9,30 @@ body {
   flex-direction: column;
 }
 
+.app__content {
+  display: flex;
+  flex-direction: column;
+}
+
 .app__date {
   flex: 1;
   padding: 16px;
+  color: antiquewhite;
+}
+
+.app__btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: antiquewhite;
+}
+
+.app__history--container {
+  border: white solid 4px;
+  margin-top: 25px;
+}
+
+.app__history--title {
+  font-size: 1.5rem;
   color: antiquewhite;
 }
