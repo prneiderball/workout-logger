@@ -5,16 +5,23 @@
   padding: 16px 24px;
 }
 
+.header__logo {
+  font-size: 3.5rem;
+  color: antiquewhite;
+  margin-left: 65px;
+}
+
+.header__subtitle {
+  font-size: 1.2rem;
+  color: antiquewhite;
+}
 .header__nav {
   display: flex;
   gap: 16px;
 }
 
-.header__logo {
-  font-size: 3.5rem;
-}
-
 .header__btn {
   border: none;
   background: none;
+  color: antiquewhite;
 }

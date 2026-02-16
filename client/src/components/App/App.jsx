@@ -4,10 +4,18 @@ import Header from "../Header/Header.jsx";
 
 function App() {
   return (
-    <div className="app">
+    <main className="app">
       <Header />
-      <h1>Home page incoming</h1>
-    </div>
+      <section className="app__content">
+        <div className="app__date">
+          <p>Today: February 16th, 2026</p>
+        </div>
+
+        <button className="app__btn">Log workout</button>
+
+        <div className="app__history--container">Previous Workouts:</div>
+      </section>
+    </main>
   );
 }
 

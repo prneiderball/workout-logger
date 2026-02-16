@@ -1,4 +1,16 @@
+body {
+  margin: 0;
+  background-color: #0f1115;
+}
+
 .app {
-  max-height: 100vh;
-  border: red solid 1px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app__date {
+  flex: 1;
+  padding: 16px;
+  color: antiquewhite;
 }
