@@ -20,7 +20,7 @@ function App() {
         <button className="app__btn"> + Log workout</button>
 
         <div className="app__history--container">
-          <h2 className="app__history--title">Previous Workouts:</h2>
+          <h2 className="app__history--title">Recent Workouts:</h2>
         </div>
       </section>
     </main>
